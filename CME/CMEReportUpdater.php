@@ -6,6 +6,7 @@
  *
  * @property SiteCommandLineConfigModule $config
  * @property SiteDatabaseModule          $database
+ * @property MDB2_Driver_Common          $db
  */
 abstract class CMEReportUpdater extends SiteCommandLineApplication
 {
