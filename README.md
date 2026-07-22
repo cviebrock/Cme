@@ -13,9 +13,6 @@ package is responsible for the following data objects:
 
 ## Installation
 
-Make sure the silverorange composer repository is added to the `composer.json`
-for the project and then run:
-
 ```sh
 composer require silverorange/cme
 ```

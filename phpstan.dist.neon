@@ -3,8 +3,8 @@ parameters:
   level: 0
   paths:
     - CME
-  editorUrl: '%%file%%:%%line%%'
-  editorUrlTitle: '%%file%%:%%line%%'
+  editorUrl: '%%relfile%%:%%line%%'
+  editorUrlTitle: '%%relfile%%:%%line%%'
   errorFormat: table
 
   # @todo these should be fixed
