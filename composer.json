@@ -32,9 +32,9 @@
     "ext-mbstring": "*",
     "dompdf/dompdf": "^2.0.0",
     "silverorange/admin": "^7.1.0",
-    "silverorange/inquisition": "^4.4.2",
+    "silverorange/inquisition": "^4.5.0",
     "silverorange/site": "^16.1.0",
-    "silverorange/store": "^10.2.2",
+    "silverorange/store": "^10.3.0",
     "silverorange/swat": "^7.10.0"
   },
   "require-dev": {
