@@ -86,7 +86,9 @@ class CMEFrontMatterWrapper extends SwatDBRecordsetWrapper
             }
 
             $provider = $providers->getByIndex($row->provider);
-            $front_matter->providers->add($provider);
+            if (isset($front_matter)) {
+                $front_matter->providers->add($provider);
+            }
         }
 
         return $providers;

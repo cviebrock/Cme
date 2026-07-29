@@ -45,7 +45,7 @@ abstract class CMEFrontMatterCompleteMailMessage extends SiteReplacementMarkerMa
             );
         }
 
-        parent::__construct($app, $account);
+        parent::__construct($app);
 
         $this->from_name = $this->getFromName();
         $this->from_address = $this->getFromAddress();
